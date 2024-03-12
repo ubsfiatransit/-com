@@ -13,9 +13,8 @@
       color: #000;
       display: flex;
       justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 1;
+      align-items: flex-start; /* Aligner le contenu en haut */
+      min-height: 50vh; 
     }
 
     .widget-container {
@@ -24,8 +23,8 @@
       padding: 13px;
       box-shadow: 0 10px 19px rgba(0, 0, 0, 0.2);
       text-align: center;
-      max-width: 130%;
-      width: 360px;
+      width: 380px;
+      margin-top: 1px; /
     }
 
     .buy-button {
@@ -35,33 +34,30 @@
       text-transform: uppercase;
       font-size: 1.2rem; /* Taille du texte du bouton */
       cursor: pointer;
-      border-radius: 5px;
+      border-radius: 4px;
       border: none;
       transition: background-color 0.3s ease;
-      margin-bottom: 6px;
-      margin-top: 10px;
+      margin-bottom: 5px;
+      margin-top: 1px;
       width: 66%;
-      padding: 10px; /* Ajout de marge interne */
+      padding: 9px; /* Ajout de marge interne */
     }
 
     .buy-button:hover {
       background-color: #ff6200; /* Couleur de fond au survol */
     }
-
     .buy-button:active {
-      transform: translateY(2px);
+      transform: translateY(1px);
     }
-
     .quantity-slider {
       -webkit-appearance: none;
       appearance: none;
-      width: calc(63% - 10px);
+      width: calc(65% -4px);
       margin-top: 4px;
-      margin-bottom: 8px;
+      margin-bottom: 0px;
       background-color: #ff6200;
       outline: none;
     }
-
     .quantity-slider::-webkit-slider-thumb {
       -webkit-appearance: none;
       appearance: none;
