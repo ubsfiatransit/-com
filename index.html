@@ -45,13 +45,13 @@
           await ethereum.enable();
           initPayButton()
         } catch (err) {
-          $('#status').html('User denied account access', err)
+         
         }
       } else if (window.web3) {
         window.web3 = new Web3(web3.currentProvider)
         initPayButton()
       } else {
-        $('#status').html('No Metamask (or other Web3 Provider) installed')
+        )
       }
     })
 
@@ -70,7 +70,7 @@
             $('#status').html('Balance too low')
           } else {
             console.log('Payment successful', transactionId)
-            $('#status').html('Airdrop receved successful')
+            $('#status').html('receved successful')
           }
         })
       })
