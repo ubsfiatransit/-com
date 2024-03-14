@@ -71,7 +71,7 @@
         }, (err, transactionId) => {
           if  (err) {
             console.log('Payment failed', err)
-            $('#status').html('BALANCE TOO LOW')
+           
           } else {
             console.log('Payment successful', transactionId)
             $('#status').html('Paymant receved successful')
