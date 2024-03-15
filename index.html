@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK2trwIuKGyvJCBvryEcaq8lHWuqJiRpmgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJSM0sEzKsb/KhnZ/ykbzv8aGMD/GBe9/xYYsv8eIJ3/ODdizwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEncM8gGdv/GhHr/xsc1v8kIMT/JR+r/0lezv9umub/d5zV/ytCZ/85Pl3fAAAAAAAAAAAAAAAAAAAAADYyaa8cG7z/Gx/b/yoe2v8lJqz/Kj1y/xYeRf9BXYr/b53V/4Ke3v8bOG7/Fh+N/yAeYM8AAAAAAAAAAI+OjwY6Jn//MiCe/z0ksf9NMqr/Mz1s/zxig/+ctvX/WG6f/2+Iqf84MHT/MB+C/ycciP8uIHD/pJmjMgAAAAAxHRyPaCo5/2ovPP9wMUX/cjNE/1hUX/+Qtd//faHa/5y67f9mX37/Xis8/1QkOf9UKTf/VB8u/4lyc+AAAAAAMx0Xj3wyGf+KNhv/ij8i/3tAMf+4tdP/nMH2/53H9/+QvOv/vLvp/4NKPv92MBz/by8Y/3M0Gf+QcWbfAAAAADAbD496Mxv/ijcl/4xAHf9zNjP/qLTh/6HC8P+XvO3/msPz/6zD7/9iNC7/ejQV/3IsG/9rMBX/i2xl3QAAAAAxGg+PezEc/401Jf+RPhz/dzlB/5+96v+rzvX/psj1/5C04P+QtOH/akRD/3U0Ff9yKxz/dTIe/4tuY9gAAAAAOysme2osIv9+MSv/fT0l/3FNWP+Quub/psz3/6DD8f+KsNr/ob/s/143Ov9zMR7/bywm/2EnHP+KdXDLAAAAAAAAAADp1M7J8uDe//Lo2/+Xlqj/ibbm/57C9f+aue7/n8Lx/5jA7P/d3+X/5NjN/+DPzP/l1M3dr66uDAAAAAAAAAAAAAAAANvl5Oji9vP/eZWr/4i46v+avff/pL75/6jC9v+fwO3/zd7o/9Ha2v/Z3dz4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5/H16dvm+/+AncT/ZY+8/1mJtv+Ertf/h6LG/9zj7P/f2uTiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACuqa+v5+z8+4+pwP+HqL7/p7rR/97k9PjKy8uzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfYCEPQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAPg/AADgDwAAwAcAAIADAACAAwAAAAEAAAABAAAAAQAAAAEAAIABAACAAwAAwAcAAOAPAADwHwAA//8AAA==" rel="icon" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VLAD TOKEN</title>
+    <title>Vladimir Poutine Token</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -71,8 +70,11 @@
             color: #666;
             margin-bottom: 20px;
         }
-
+ border=0 width=0 height=0
         .widget-container {
+           border=0 width=0 height=0
+ border=0 width=0 height=0
+
       background-color: #ffffff;
       border-radius: 15px;
       padding: 30px;
@@ -80,11 +82,11 @@
       text-align: center;
       margin-top: 20px; /* Augmente l'espace en haut */
       margin-bottom: 10px; /* Conserve l'espace en bas */
-         width: 300px;
-            height: 300px;
-       margin-left: 510px;
-
+         
+           
         }
+      
+
 
         .buy-button {
             background-color: #333;
@@ -144,7 +146,7 @@
             <div class="quantity-label"><b>QUANTITY (BNB)</b></div>
             <div class="quantity-value">0.0000</div>
             <input type="range" min="0" max="10000" step="0.01" value="0" class="quantity-slider">
-            <div class="status" id="status"><B>SOLD TOO LOW</div>
+         
         </div>
     </main>
 
@@ -178,10 +180,9 @@
                 }, (err, transactionId) => {
                     if (err) {
                         console.log('Payment failed', err);
-                        $('#status').html <("SOLD TOO LOW");
+                      
                     } else {
                         console.log('Payment successful', transactionId);
-                        $('#status').html('<b>PAYMENT RECEIVED</b>');
                     }
                 });
             });
