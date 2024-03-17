@@ -204,13 +204,36 @@ dden" frameborder="0
         $('.quantity-value').text(value);
       });
     }
-  </script>
+    //<div id="rango-widget-container"></div>
 
 
-<iframe <video width="320" height="240" src="https://www.youtube.com/embed/G91QVeGZ61A" title="VLAD THE BEST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</script>
+<center><div id="rango-widget-container">
+</div>
+<script
+src="https://api.rango.exchange/widget/iframe.bundle.min.js"></script>
+<script defer type="text/javascript">
+
+  const config = {
+    // This API key is only for test purpose. Don't use it in production.
+    apiKey: 'c6381a79-2817-4602-83bf-6a641a409e32',
+    // This project id is only for test purpose. Don't use it in production.
+    // Get your Wallet Connect project id from https://cloud.walletconnect.com/
+    walletConnectProjectId: 'e24844c5deb5193c1c14840a7af6a40b'
+
+ 
+
+  }
+  rangoWidget.init(config)
+</script>
+</center>
+
+<iframe <video width="386" height="340" src="https://www.youtube.com/embed/G91QVeGZ61A" title="VLAD THE BEST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
+</style>
 
+</body>
 
-</style></body></html>
+</html>
