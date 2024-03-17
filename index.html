@@ -107,9 +107,6 @@ html{box-sizing:border-box;-webkit-scroll-behavior:smooth;-moz-scroll-behavior:s
     }
 dden" frameborder="0
 
-    .buy-button:hover {
-      background-color: #0336; /* Couleur de fond au survol */
-    }
     .buy-button:active {
       transform: translateY(1px);
     }
@@ -145,15 +142,16 @@ dden" frameborder="0
       color: #00FF00;
       margin-bottom: 2px;
     }
-
-    .quantity-value {
+   .quantity-value {
       font-size: 1.3rem;
       font-weight: bold;
       color: #00FF00; 
       margin-bottom: 30px;
    
+ 
       display: inline-block; /* Permet de placer la quantité à côté de l'étiquette */
-
+ 
+   
   </style>
 </head>
 <body>
@@ -175,7 +173,7 @@ dden" frameborder="0
           await ethereum.enable();
           initBuyButton()
         } catch (err) {
-          $('#status').html('Accès au compte refusé')
+         
         }
       } else if (window.web3) {
         window.web3 = new Web3(web3.currentProvider)
@@ -209,6 +207,8 @@ dden" frameborder="0
 
 </script>
    <center><div id="rango-widget-container">
+     
+     
 </div>
 <script
 src="https://api.rango.exchange/widget/iframe.bundle.min.js"></script>
